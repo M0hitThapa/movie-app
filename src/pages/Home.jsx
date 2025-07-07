@@ -1,16 +1,12 @@
 import React from 'react'
 import MovieCard from '../components/MovieCard'
 import { useState } from 'react'
+import { searchMovies, getPopularMovies } from '../services/api'
 import "../css/Home.css"
 
 function Home() {
     const [searchQuery, setSearchQuery] = useState("");
-    const movies = [
-        {id:1, title:"john wick", release_date:"2020"},
-        {id:2, title:"john kick", release_date:"2021"},
-        {id:3, title:"john sick", release_date:"2022"},
-        {id:4, title:"john bick", release_date:"2023"}
-    ]
+  
 
     const handleSearch = (e) => {
         e.preventDefault()
