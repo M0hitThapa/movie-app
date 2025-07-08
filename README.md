@@ -1,5 +1,14 @@
 # React + Vite
 
+
+Builded a beautiful movie data fetching and showing in using react js 
+
+![Screenshot (1416)](https://github.com/user-attachments/assets/a3a37f2f-44b3-4a46-9e48-a7ed87fd0c07)
+
+
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
